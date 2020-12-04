@@ -1,0 +1,205 @@
+.container{
+    width: 100%;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #17273A;
+}
+.logo{
+    width: 15%;
+    float: left;
+    background-color: #17273A;
+    padding: 13px;
+    
+}
+.logo img{
+    width: 100%;
+    
+}
+.menu{
+    width: 80%;
+    float: left;
+    padding-top: 10px;
+}
+.menu a{
+    float: right;
+    margin: 25px 20px;
+    color: green;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+
+/* banner */
+.banner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    height: 460px;
+    color: green;
+    text-align: center;
+}
+.banner h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 130px;
+}
+.banner h2{
+    color: #00A63F;
+    font-size: 25px;
+}
+
+
+/* our_services */
+.our_services{
+    width: 100%;
+    background-color: #17273A ;
+    text-align: center;
+    height: 500px;
+    float: left;
+    color: #848A8F;  
+}
+.our_services_header{
+    width: 94%;
+    padding: 38px;
+}
+.our_services_header h1{
+    color: #00A63F;
+}
+.single_service{
+    width: 31%;
+    float: left;
+    padding: 14.5px;
+}
+.single_service img{
+    width: 70px;
+}
+.single_service h1{
+    color: #00A63F;
+}
+
+
+/* organization */
+.organization{
+    background-color: #00A63F; 
+    color: white;
+    float: left;
+}
+.organization_header{
+    text-align: center;
+    padding: 30px;
+}
+.organization_header h1{
+    color: #17273A;
+}
+.organization_left{
+    width: 56%;
+    float: left;
+    padding: 20px;
+}
+.organization_left a{
+    color: white;
+}
+
+.organization_right{
+    width: 37%;
+    float: left;
+    padding: 24px;
+}
+.organization_right img{
+    width: 100%;
+}
+
+
+/* programmes_timing */
+.programmes_timing{
+    width: 100%;
+    float: left;
+    background-color: #102033; 
+    color: #a0a0a3;
+}
+.programmes_timing h1{
+    color: #00A63F;
+}
+.programmes{
+    width: 46%;
+    float: left;
+    padding: 20px;
+}
+.latest_news{
+    width: 27%;
+    float: left;
+    padding: 18px;
+}
+.latest_news table {
+    width: 100%;
+}
+.latest_news table tr{
+    background-color: black;
+}
+.latest_news table tr td a{
+    margin: 20px;
+    color: #a0a0a3;
+}
+.office_timing{
+    width: 18%;
+    float: left;
+    padding: 18px;
+}
+
+
+/* contact */
+.contact{
+    width: 100%;
+    float: left;
+    background-color: #0A121C; 
+    color: #797d81;
+}
+.contact h1{
+    color: #00A63F;
+}
+.contact a{
+    color: #797d81;
+}
+.recent_news{
+    width: 21%;
+    float: left;
+    padding: 20px;
+}
+.latest_post{
+    width: 22%;
+    float: left;
+    padding: 20px;
+}
+.quick_links{
+    width: 22%;
+    float: left;
+    padding: 22px;
+}
+.our_contact{
+    width: 22%;
+    float: left;
+    padding: 19px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #000000; 
+    color:#797d81 ; 
+    text-align: center;
+    float: left;
+    padding:10px 0;
+    
+}
+.footer span{
+    color: #00A63F;
+}

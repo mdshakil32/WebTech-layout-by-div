@@ -1,0 +1,59 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background:url(images/banner.jpg);  
+    background-size: cover;
+    
+    
+  }  
+  .container { 
+    width: 60%;
+    margin-left: 17%;
+    padding: 50px;  
+    background-color: #c0c0c0;  
+  }
+  .container h1{
+      color: #00A63F;
+  }
+  
+  input[type=text], input[type=password], textarea {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: white;  
+    
+    
+  }  
+  input[type=text]:focus, input[type=password]:focus,select:focus {
+    background-color: #00A63F;
+    outline: none;  
+    
+  }
+ 
+  div{  
+    padding: 10px 0;
+    }
+
+  .package_option select{
+    /* background-color: white; */
+    width: 104%;
+    padding: 15px;
+
+  }
+  hr {  
+    border: 2px solid  #4CAF50;  
+    margin-bottom: 25px;  
+    background-color: #4CAF50;
+    width: 103%;
+  }  
+  .registerbtn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 104%;  
+  }  
+ 
